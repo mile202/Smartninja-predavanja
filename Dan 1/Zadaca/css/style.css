@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+}
+
+.fakebook {
+  background-color: black;
+  color: blue;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 40px;
+text-shadow: 4px 4px lightgrey;
+
+
+}
+
+.ime {
+  background-color: black;
+  color: ;
+  text-align: center;
+
+}
+.slika {
+  display: block;
+    margin: auto;
+
+}
+
+.popis  {
+  color: white;
+  text-align: center;
+}
+
+ /* Linkovi u mom meniu */
+#bocni_meni a {
+    position: absolute; /* Poziciranje relativno od browsera */
+    left: -240px; /* Poziciranje van ekrana */
+    transition: 0.3s; /* Dodavanje tranzicije na hover */
+    padding: 30px; /* 15px padding */
+    width: 100px; /* Postavljanje specificnog width*/
+    margin: 106px; /* Nisam znao kako bi pozicionirao meni nize pa sam se koristio marginom da ga spustim i iznad sam postavio left na misnu vise px. */
+    text-decoration: none; /* Uklanja podlinije */
+    font-size: 20px; /* Povecava velicinu fonta */
+    color: white; /* Boja teksta bijela */
+    border-radius: 0 5px 5px 0; /* Zaobljeni rubovi na odredenjim dijelovima */
+}
+
+#bocni_meni a:hover {
+    left: 0; /* Kad se dode misom na link on postaje vidljiv*/
+}
+
+/* O linku: 20px od gore sa zelenim rubom*/
+
+
+
+#like {
+    top: 80px;
+    background-color: Blue; /* Plava */
+}
+
+#pjesma {
+    top: 140px;
+    background-color: Red; /* Crvena */
+}
+
+#poruka {
+    top: 200px;
+    background-color: green; /* Zelena */
+}
+
+.pozadinskapjesma {
+  display: block;
+  margin: auto;
+}

@@ -1,0 +1,51 @@
+/*
+Padding 20px
+*/
+#header {
+  background-color: red;
+  padding: 20px;
+}
+
+/*
+Ovo ispod je inline block
+inline element margin-top 30px
+*/
+.inline {
+  display: inline-block;
+  margin-top: 30px;
+  height: 100vh;
+  vertical-align: top;
+}
+
+#aside-left {
+  background-color: green;
+  width: 200px;
+}
+
+#main {
+  background-color: blue;
+  width: calc(100% - 312px);
+}
+
+#aside-right {
+  background-color: pink;
+  width: 100px;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+#relative1 {
+  position: relative;
+  margin: 0 auto;
+}
+#relative2 {
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+#fixed {
+  position: fixed;
+  top: calc(50vh - 25px);
+}
