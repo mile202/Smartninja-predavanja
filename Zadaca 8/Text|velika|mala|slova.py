@@ -2,7 +2,7 @@ smallLetters = raw_input("Unesite bilo koju rijec pritisnite enter pa vidite sto
 
 print("\n Vasa prva rijec: " + smallLetters.upper())
 
-capitalLetters = raw_input("\n Unesite jos jednu rijec svim velikim slovima: ")
+capitalLetters = raw_input("\n Unesite jos jednu rijec: ")
 
 for letter in capitalLetters:
     if letter != capitalLetters.lower() :
